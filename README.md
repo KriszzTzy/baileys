@@ -5,7 +5,8 @@
   <p><em>Custom WhatsApp library built upon Baileys — enhanced, modernized, and elegant.</em></p>
   <p><strong>🎅 Merry Christmas & Happy New Year 2025 🎅</strong></p>
 
-  <img src="./media/IMG-20251223-WA1753.png" width="450" alt="Yuzukii Bail Banner" style="border-radius: 15px; border: 2px solid #ff0000;" />
+---
+  <img src="https://camo.githubusercontent.com/8c1cc888a216088f8515ca5eb0dc7131bb190d6059af8d02c4616e39b6639114/68747470733a2f2f69696c692e696f2f325a706a746c702e6a7067" width="450" alt="Yuzukii Bail Banner" style="border-radius: 15px; border: 2px solid #ff0000;" />
   <br><br>
 
   <p>
@@ -22,21 +23,6 @@
   <!-- License -->
   <a href="https://www.npmjs.com/package/yuzukii">
     <img src="https://img.shields.io/npm/l/yuzukii?color=success&label=license" alt="license" />
-  </a>
-
-  <!-- Bundle Size -->
-  <a href="https://bundlephobia.com/package/yuzukii">
-    <img src="https://img.shields.io/bundlephobia/min/yuzukii?label=minified%20size&color=orange" alt="bundle size" />
-  </a>
-
-  <!-- Gzip Bundle Size -->
-  <a href="https://bundlephobia.com/package/yuzukii">
-    <img src="https://img.shields.io/bundlephobia/minzip/yuzukii?label=minzip%20size&color=orange" alt="gzip bundle size" />
-  </a>
-
-  <!-- PackagePhobia Install Size -->
-  <a href="https://packagephobia.com/result?p=yuzukii">
-    <img src="https://packagephobia.com/badge?p=yuzukii" alt="install size" />
   </a>
 
   <!-- Code Quality (Codacy) -->
@@ -74,7 +60,7 @@
 </div>
 
 ## 📌 Overview
-> ❄️ `yuzukii-baileys` is a refined version of the Baileys library with cleaner API usage, exclusive features like album messaging, newsletter controls, and full-size profile uploads — tailored for modern WhatsApp automation needs.
+> ❄️ `Yuzukii-baileys` is a refined version of the Baileys library with cleaner API usage, exclusive features like album messaging, newsletter controls, and full-size profile uploads — tailored for modern WhatsApp automation needs.
 
 > **Christmas Update** 🎁
 > All update information is now redirected to the WhatsApp channel check at the bottom of the "homepage"
