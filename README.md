@@ -6,7 +6,7 @@
   <p><strong>🎅 Merry Christmas & Happy New Year 2026 🎅</strong></p>
 
 ---
-  <img src="https://raw.githubusercontent.com/KriszzTzy/Database/main/uploads/1767099961768_photo.jpg" width="450" alt="Yuzukii Bail Banner" style="border-radius: 15px; border: 2px solid #ff0000;" />
+  <img src="https://raw.githubusercontent.com/KriszzTzy/Database/main/uploads/1767338609195_photo.jpg" width="450" alt="Yuzukii Bail Banner" style="border-radius: 15px; border: 2px solid #ff0000;" />
   <br><br>
 
   <p>
