@@ -164,6 +164,176 @@ await sock.sendMessage(id, {
   buttons,
   headerType: 1
 });
+
+await sock.sendMessage(jid, {
+    interactiveMessage: {
+        header: "Hello World",
+        title: "Hello World",
+        footer: "telegram: @kriszzyy ",
+        buttons: [
+            {
+                name: "cta_copy",
+                buttonParamsJson: JSON.stringify({
+                    display_text: "copy code",
+                    id: "123456789",              
+                    copy_code: "ABC123XYZ"
+                })
+            }
+        ]
+    }
+}, { quoted: m });
+
+await sock.sendMessage(jid, {    
+    interactiveMessage: {      
+        header: "Hello World",
+        title: "Hello World",      
+        footer: "telegram: @kriszzyy",      
+        image: { url: "https://example.com/image.jpg" },      
+        nativeFlowMessage: {        
+            messageParamsJson: JSON.stringify({          
+                limited_time_offer: {            
+                    text: "idk hummmm?",            
+                    url: "https://t.me/kriszzyy",            
+                    copy_code: "yume",            
+                    expiration_time: Date.now() * 999          
+                },          
+                bottom_sheet: {            
+                    in_thread_buttons_limit: 2,            
+                    divider_indices: [1, 2, 3, 4, 5, 999],            
+                    list_title: "yume native",            
+                    button_title: "yume native"          
+                },          
+                tap_target_configuration: {            
+                    title: " X ",            
+                    description: "bomboclard",            
+                    canonical_url: "https://t.me/kriszzyy",            
+                    domain: "shop.example.com",            
+                    button_index: 0          
+                }        
+            }),        
+            buttons: [          
+                {            
+                    name: "single_select",            
+                    buttonParamsJson: JSON.stringify({              
+                        has_multiple_buttons: true            
+                    })          
+                },          
+                {            
+                    name: "call_permission_request",            
+                    buttonParamsJson: JSON.stringify({              
+                        has_multiple_buttons: true            
+                    })          
+                },          
+                {            
+                    name: "single_select",            
+                    buttonParamsJson: JSON.stringify({              
+                        title: "Hello World",              
+                        sections: [                
+                            {                  
+                                title: "title",                  
+                                highlight_label: "label",                  
+                                rows: [                    
+                                    {                      
+                                        title: "@kriszzyy",                      
+                                        description: "love you",                      
+                                        id: "row_2"                    
+                                    }                  
+                                ]                
+                            }              
+                        ],              
+                        has_multiple_buttons: true            
+                    })          
+                },          
+                {            
+                    name: "cta_copy",            
+                    buttonParamsJson: JSON.stringify({              
+                        display_text: "copy code",              
+                        id: "123456789",              
+                        copy_code: "ABC123XYZ"            
+                    })          
+                }        
+            ]      
+        }    
+    }  
+}, { quoted: m });
+
+await sock.sendMessage(jid, {
+    interactiveMessage: {
+        header: "Hello World",
+        title: "Hello World",
+        footer: "telegram: @kriszzyy",
+        image: { url: "https://example.com/image.jpg" },
+        buttons: [
+            {
+                name: "cta_copy",
+                buttonParamsJson: JSON.stringify({
+                    display_text: "copy code",
+                    id: "123456789",
+                    copy_code: "ABC123XYZ"
+                })
+            }
+        ]
+    }
+}, { quoted: m });
+
+await sock.sendMessage(jid, {
+    interactiveMessage: {
+        header: "Hello World",
+        title: "Hello World",
+        footer: "telegram: @kriszzyy",
+        document: fs.readFileSync("./package.json"),
+        mimetype: "application/pdf",
+        fileName: "kriszzyy.pdf",
+        jpegThumbnail: fs.readFileSync("./document.jpeg"),
+        contextInfo: {
+            mentionedJid: [jid],
+            forwardingScore: 777,
+            isForwarded: false
+        },
+        externalAdReply: {
+            title: "shenń Bot",
+            body: "anu team",
+            mediaType: 3,
+            thumbnailUrl: "https://example.com/image.jpg",
+            mediaUrl: " X ",
+            sourceUrl: "https://t.me/kriszzyy",
+            showAdAttribution: true,
+            renderLargerThumbnail: false         
+        },
+        buttons: [
+            {
+                name: "cta_url",
+                buttonParamsJson: JSON.stringify({
+                    display_text: "Telegram",
+                    url: "https://t.me/kriszzyy",
+                    merchant_url: "https://t.me/kriszzyy"
+                })
+            }
+        ]
+    }
+}, { quoted: m });
+
+await sock.sendMessage(jid, {
+    interactiveMessage: {
+        header: "Hello World",
+        title: "Hello World",
+        footer: "telegram: @kriszzyy",
+        document: fs.readFileSync("./package.json"),
+        mimetype: "application/pdf",
+        fileName: "kriszzyy.pdf",
+        jpegThumbnail: fs.readFileSync("./document.jpeg"),
+        buttons: [
+            {
+                name: "cta_url",
+                buttonParamsJson: JSON.stringify({
+                    display_text: "Telegram",
+                    url: "https://t.me/kriszzyy",
+                    merchant_url: "https://t.me/kriszzyy"
+                })
+            }
+        ]
+    }
+}, { quoted: m });
 ```
 
 </details>
@@ -182,10 +352,16 @@ const media = [
   { video: { url: "https://example.com/clip.mp4" } }
 ];
 
-await sock.sendMessage(
-  id,
+await sock.sendMessage(id,
   { album: media, caption: "Memories 💫" }
 );
+
+await sock.sendMessage(jid, { 
+    albumMessage: [
+        { image: cihuy, caption: "Foto pertama" },
+        { image: { url: "URL IMAGE" }, caption: "Foto kedua" }
+    ] 
+}, { quoted: m });
 ```
 
 </details>
@@ -222,6 +398,22 @@ await sock.sendMessage(id, {
     selectableCount: 1
   }
 });
+
+await sock.sendMessage(jid, { 
+    pollResultMessage: { 
+        name: "Hello World", 
+        pollVotes: [
+            {
+                optionName: "TEST 1",
+                optionVoteCount: "112233"
+            },
+            {
+                optionName: "TEST 2",
+                optionVoteCount: "1"
+            }
+        ] 
+    } 
+}, { quoted: m });
 ```
 
 </details>
@@ -250,7 +442,7 @@ await sock.sendMessage(id, {
 ---
 
 ### 👥 Group Management
-Kelola grup WhatsApp: membuat grup, menambah anggota, dan memperbarui deskripsi.
+Kelola grup WhatsApp: membuat grup, status group, menambah anggota, dan memperbarui deskripsi.
 
 
 <details>
@@ -265,6 +457,112 @@ const group = await sock.groupCreate(
 await sock.groupAdd(group.id, [number3]);
 await sock.groupUpdateDescription(group.id,"This is our awesome group!"
 );
+
+await sock.sendMessage(jid, {
+     groupStatusMessage: {
+          text: "Hello World"
+     }
+});
+```
+
+</details>
+
+---
+
+### Pesan Acara
+Buat dan kirim undangan acara WhatsApp.
+
+
+<details>
+<summary><strong>Lihat Contoh</strong></summary>
+
+```js
+await sock.sendMessage(jid, { 
+    eventMessage: { 
+        isCanceled: false, 
+        name: "Hello World", 
+        description: "yume native", 
+        location: { 
+            degreesLatitude: 0, 
+            degreesLongitude: 0, 
+            name: "rowrrrr" 
+        }, 
+        joinLink: "https://call.whatsapp.com/video/kriszzyy", 
+        startTime: "1763019000", 
+        endTime: "1763026200", 
+        extraGuestsAllowed: false 
+    } 
+}, { quoted: m });
+```
+
+</details>
+
+---
+
+### Product Message
+Send product catalog messages with buttons and merchant information:
+
+<details>
+<summary><strong>Lihat Contoh</strong></summary>
+
+```js
+await sock.sendMessage(jid, {
+    productMessage: {
+        title: "Produk Contoh",
+        description: "Ini adalah deskripsi produk",
+        thumbnail: { url: "https://example.com/image.jpg" },
+        productId: "PROD001",
+        retailerId: "RETAIL001",
+        url: "https://example.com/product",
+        body: "Detail produk",
+        footer: "Harga spesial",
+        priceAmount1000: 50000,
+        currencyCode: "USD",
+        buttons: [
+            {
+                name: "cta_url",
+                buttonParamsJson: JSON.stringify({
+                    display_text: "Beli Sekarang",
+                    url: "https://example.com/buy"
+                })
+            }
+        ]
+    }
+}, { quoted: m });
+```
+
+</details>
+
+---
+
+### Request Payment Message
+Send payment request messages with custom background and sticker:
+
+<details>
+<summary><strong>Lihat Contoh</strong></summary>
+
+```js
+let quotedType = m.quoted?.mtype || '';
+let quotedContent = JSON.stringify({ [quotedType]: m.quoted }, null, 2);
+
+await sock.sendMessage(jid, {
+    requestPaymentMessage: {
+        currency: "IDR",
+        amount: 10000000,
+        from: m.sender,
+        sticker: JSON.parse(quotedContent),
+        background: {
+            id: "100",
+            fileLength: "0",
+            width: 1000,
+            height: 1000,
+            mimetype: "image/webp",
+            placeholderArgb: 0xFF00FFFF,
+            textArgb: 0xFFFFFFFF,     
+            subtextArgb: 0xFFAA00FF   
+        }
+    }
+}, { quoted: m });
 ```
 
 </details>
@@ -293,14 +591,14 @@ Terima kasih kepada semua pihak yang telah memberikan dukungan, inspirasi, serta
 
 - **Allah SWT** — atas segala rahmat, kemudahan, dan perlindungan-Nya.
 - **Orang Tua** — atas kasih sayang, doa, dan dukungan yang tiada henti.
-- **Nstar-Y / Nstar-bail** — sebagai fondasi awal dan referensi dalam pengembangan sistem ini.
-- **[Kriszz Hayanasi](https://github.com/KriszzTzy)** (Me)  
-  The main developer of this project.
+- **[Nstar-Y / Nstar-bail](https://github.com/nstar-y/bail)** — sebagai fondasi awal dan referensi dalam pengembangan sistem ini.
+- **[Kriszz Hayanasi](https://github.com/KriszzTzy)** (Saya)
+Pengembang utama proyek ini.
 
 </details>
 
 > [!CAUTION]
-> Built on top of the WhiskeySockets/Baileys project. All original core logic credits go to their team. Kriszz Bails extends it with thoughtful UX and DX improvements.
+> Built on top of the WhiskeySockets/Baileys project. All original core logic credits go to their team. Yuzukii Bails extends it with thoughtful UX and DX improvements.
 
 ---
 
