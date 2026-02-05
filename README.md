@@ -1,7 +1,7 @@
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <div align="center">
-  <h1>💫✨ RizzXxExcet`T. ✨💫</h1>
+  <h1>💫✨ library ✨💫</h1>
   <p><em>Custom WhatsApp library built upon Baileys — enhanced, modernized, and elegant.</em></p>
   <p><strong>Baileys for developers</strong></p>
 
@@ -11,8 +11,8 @@
 
   <p>
   <!-- NPM Version -->
-  <a href="https://www.npmjs.com/package/yuzukii">
-    <img src="https://img.shields.io/npm/v/yuzukii?color=blueviolet&label=version&logo=npm" alt="npm version" />
+  <a href="https://www.npmjs.com/package/@rexxhayanasi/elaina-baileys">
+    <img src="https://img.shields.io/npm/v/@rexxhayanasi/elaina-baileys?color=blueviolet&label=version&logo=npm" alt="npm version" />
   </a>
 
   <!-- NPM Downloads -->
@@ -597,14 +597,14 @@ Pengembang utama proyek ini.
 
 </details>
 
-> [!CAUTION]
-> Built on top of the WhiskeySockets/Baileys project. All original core logic credits go to their team. Yuzukii Bails extends it with thoughtful UX and DX improvements.
+> [!PERINGATAN]
+> Dibangun di atas proyek WhiskeySockets/Baileys. Semua logika inti asli merupakan hak tim mereka. Yuzukii Bails memperluasnya dengan peningkatan UX dan DX yang cermat.
 
 ---
 
-### 🙌 Contributors outside the Baileys code
+### 🙌 Kontributor di luar kode Baileys
 
-Thanks to the following awesome contributors who help improve this project 💖
+Terima kasih kepada para kontributor hebat berikut yang membantu meningkatkan proyek ini 💖
 
 <table>
   <tr>
