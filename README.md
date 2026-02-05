@@ -1,12 +1,12 @@
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <div align="center">
-  <h1>🎄✨ RizzXxExcet`T. ✨🎄</h1>
+  <h1>💫✨ RizzXxExcet`T. ✨💫</h1>
   <p><em>Custom WhatsApp library built upon Baileys — enhanced, modernized, and elegant.</em></p>
-  <p><strong>🎅 Merry Christmas & Happy New Year 2026 🎅</strong></p>
+  <p><strong>Baileys for developers</strong></p>
 
 ---
-  <img src="https://raw.githubusercontent.com/KriszzTzy/Database/main/uploads/1767947850043_image.jpg" width="450" alt="Yuzukii Bail Banner" style="border-radius: 15px; border: 2px solid #ff0000;" />
+  <img src="https://raw.githubusercontent.com/KriszzTzy/Database/main/uploads/1770290033495.jpeg" width="450" alt="Yuzukii Bail Banner" style="border-radius: 15px; border: 2px solid #ff0000;" />
   <br><br>
 
   <p>
