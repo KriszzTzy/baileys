@@ -3,7 +3,7 @@
 <div align="center">
   <h1>💫✨ library ✨💫</h1>
   <p><em>Custom WhatsApp library built upon Baileys — enhanced, modernized, and elegant.</em></p>
-  <p><strong>Baileys for developers</strong></p>
+  <p><strong>Modifed bailey for developers</strong></p>
 
 ---
   <img src="https://raw.githubusercontent.com/KriszzTzy/Database/main/uploads/1770290033495.jpeg" width="450" alt="Yuzukii Bail Banner" style="border-radius: 15px; border: 2px solid #ff0000;" />
@@ -47,11 +47,6 @@
   <a href="https://whatsapp.com/channel/0029Vb70uHbD8SE2w5Q9M107">
     <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
   </a>
-
-  <!-- Status Page -->
-  <a href="https://status-elainabaileys.vercel.app">
-    <img src="https://img.shields.io/badge/Status-Baileys-blue?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Status Baileys" />
-  </a>
 </p>
 </div>
 
@@ -60,10 +55,10 @@
 </div>
 
 ## 📌 Overview
-> ❄️ `Yuzukii-baileys` is a refined version of the Baileys library with cleaner API usage, exclusive features like album messaging, newsletter controls, and full-size profile uploads — tailored for modern WhatsApp automation needs.
+> ❄️ `Yuzukii-baileys` adalah versi yang disempurnakan dari pustaka Baileys dengan penggunaan API yang lebih bersih, fitur eksklusif seperti pengiriman pesan album, kontrol buletin, dan unggahan profil ukuran penuh — dirancang khusus untuk kebutuhan otomatisasi WhatsApp modern.
 
 > **Christmas Update** 🎁
-> All update information is now redirected to the WhatsApp channel check at the bottom of the "homepage"
+> Semua informasi pembaruan sekarang dialihkan ke saluran WhatsApp, silakan **[Bergabung](https://whatsapp.com/channel/0029Vb70uHbD8SE2w5Q9M107)** ke saluran WhatsApp.
 
 ---
 
@@ -598,7 +593,7 @@ Pengembang utama proyek ini.
 </details>
 
 > [!PERINGATAN]
-> Dibangun di atas proyek WhiskeySockets/Baileys. Semua logika inti asli merupakan hak tim mereka. Yuzukii Bails memperluasnya dengan peningkatan UX dan DX yang cermat.
+> PROYEK ini Dibangun di atas proyek WhiskeySockets/Baileys. Semua logika inti asli merupakan hak tim mereka. Yuzukii Bails memperluasnya dengan peningkatan UX dan DX yang cermat.
 
 ---
 
