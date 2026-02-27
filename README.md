@@ -1,9 +1,9 @@
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <div align="center">
-  <h1>💫✨ RizzXxExcet`T. ✨💫</h1>
+  <h1>💫✨ library ✨💫</h1>
   <p><em>Custom WhatsApp library built upon Baileys — enhanced, modernized, and elegant.</em></p>
-  <p><strong>Baileys for developers</strong></p>
+  <p><strong>Modifed bailey for developers</strong></p>
 
 ---
   <img src="https://raw.githubusercontent.com/KriszzTzy/Database/main/uploads/1770290033495.jpeg" width="450" alt="Yuzukii Bail Banner" style="border-radius: 15px; border: 2px solid #ff0000;" />
@@ -11,8 +11,8 @@
 
   <p>
   <!-- NPM Version -->
-  <a href="https://www.npmjs.com/package/yuzukii">
-    <img src="https://img.shields.io/npm/v/yuzukii?color=blueviolet&label=version&logo=npm" alt="npm version" />
+  <a href="https://www.npmjs.com/package/@rexxhayanasi/elaina-baileys">
+    <img src="https://img.shields.io/npm/v/@rexxhayanasi/elaina-baileys?color=blueviolet&label=version&logo=npm" alt="npm version" />
   </a>
 
   <!-- NPM Downloads -->
@@ -47,11 +47,6 @@
   <a href="https://whatsapp.com/channel/0029Vb70uHbD8SE2w5Q9M107">
     <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
   </a>
-
-  <!-- Status Page -->
-  <a href="https://status-elainabaileys.vercel.app">
-    <img src="https://img.shields.io/badge/Status-Baileys-blue?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Status Baileys" />
-  </a>
 </p>
 </div>
 
@@ -60,10 +55,10 @@
 </div>
 
 ## 📌 Overview
-> ❄️ `Yuzukii-baileys` is a refined version of the Baileys library with cleaner API usage, exclusive features like album messaging, newsletter controls, and full-size profile uploads — tailored for modern WhatsApp automation needs.
+> ❄️ `Yuzukii-baileys` adalah versi yang disempurnakan dari pustaka Baileys dengan penggunaan API yang lebih bersih, fitur eksklusif seperti pengiriman pesan album, kontrol buletin, dan unggahan profil ukuran penuh — dirancang khusus untuk kebutuhan otomatisasi WhatsApp modern.
 
 > **Christmas Update** 🎁
-> All update information is now redirected to the WhatsApp channel check at the bottom of the "homepage"
+> Semua informasi pembaruan sekarang dialihkan ke saluran WhatsApp, silakan **[Bergabung](https://whatsapp.com/channel/0029Vb70uHbD8SE2w5Q9M107)** ke saluran WhatsApp.
 
 ---
 
@@ -597,14 +592,14 @@ Pengembang utama proyek ini.
 
 </details>
 
-> [!CAUTION]
-> Built on top of the WhiskeySockets/Baileys project. All original core logic credits go to their team. Yuzukii Bails extends it with thoughtful UX and DX improvements.
+> [!PERINGATAN]
+> PROYEK ini Dibangun di atas proyek WhiskeySockets/Baileys. Semua logika inti asli merupakan hak tim mereka. Yuzukii Bails memperluasnya dengan peningkatan UX dan DX yang cermat.
 
 ---
 
-### 🙌 Contributors outside the Baileys code
+### 🙌 Kontributor di luar kode Baileys
 
-Thanks to the following awesome contributors who help improve this project 💖
+Terima kasih kepada para kontributor hebat berikut yang membantu meningkatkan proyek ini 💖
 
 <table>
   <tr>
